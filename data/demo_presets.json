@@ -1,0 +1,150 @@
+{
+ "vertices": [
+  {
+   "id": 0,
+   "x": 0,
+   "y": 0,
+   "type": "Start",
+   "checkpointOrder": null,
+   "active": true
+  },
+  {
+   "id": 5,
+   "x": 70,
+   "y": 0,
+   "type": "Finish",
+   "checkpointOrder": null,
+   "active": true
+  },
+  {
+   "id": 1,
+   "x": 35,
+   "y": 3,
+   "type": "Intersection",
+   "checkpointOrder": null,
+   "active": true
+  },
+  {
+   "id": 2,
+   "x": 35,
+   "y": -35,
+   "type": "Intersection",
+   "checkpointOrder": null,
+   "active": true
+  },
+  {
+   "id": 3,
+   "x": 35,
+   "y": 18,
+   "type": "Intersection",
+   "checkpointOrder": null,
+   "active": true
+  },
+  {
+   "id": 4,
+   "x": 35,
+   "y": -12,
+   "type": "Intersection",
+   "checkpointOrder": null,
+   "active": true
+  }
+ ],
+ "edges": [
+  {
+   "id": 0,
+   "from": 0,
+   "to": 1,
+   "distance": 40,
+   "baseTime": 30,
+   "fuelCost": 20,
+   "difficulty": 5,
+   "status": "Open",
+   "isShortcut": false,
+   "directed": false
+  },
+  {
+   "id": 1,
+   "from": 1,
+   "to": 5,
+   "distance": 40,
+   "baseTime": 30,
+   "fuelCost": 20,
+   "difficulty": 5,
+   "status": "Open",
+   "isShortcut": false,
+   "directed": false
+  },
+  {
+   "id": 2,
+   "from": 0,
+   "to": 2,
+   "distance": 70,
+   "baseTime": 70,
+   "fuelCost": 25,
+   "difficulty": 1,
+   "status": "Open",
+   "isShortcut": false,
+   "directed": false
+  },
+  {
+   "id": 3,
+   "from": 2,
+   "to": 5,
+   "distance": 70,
+   "baseTime": 70,
+   "fuelCost": 25,
+   "difficulty": 1,
+   "status": "Open",
+   "isShortcut": false,
+   "directed": false
+  },
+  {
+   "id": 4,
+   "from": 0,
+   "to": 3,
+   "distance": 55,
+   "baseTime": 50,
+   "fuelCost": 8,
+   "difficulty": 3,
+   "status": "Open",
+   "isShortcut": false,
+   "directed": false
+  },
+  {
+   "id": 5,
+   "from": 3,
+   "to": 5,
+   "distance": 55,
+   "baseTime": 50,
+   "fuelCost": 8,
+   "difficulty": 3,
+   "status": "Open",
+   "isShortcut": false,
+   "directed": false
+  },
+  {
+   "id": 6,
+   "from": 0,
+   "to": 4,
+   "distance": 50,
+   "baseTime": 45,
+   "fuelCost": 15,
+   "difficulty": 2,
+   "status": "Open",
+   "isShortcut": false,
+   "directed": false
+  },
+  {
+   "id": 7,
+   "from": 4,
+   "to": 5,
+   "distance": 50,
+   "baseTime": 45,
+   "fuelCost": 15,
+   "difficulty": 2,
+   "status": "Open",
+   "isShortcut": false,
+   "directed": false
+  }
+ ]
+}
